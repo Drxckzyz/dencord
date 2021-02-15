@@ -31,6 +31,7 @@ export default class WebsocketManager {
                 const payload: Payload = JSON.parse(message.toString())
            
                 const { t: event, op } = payload
+                console.log('WEBSOCKET', payload)
                 switch (op) {
                     case OPCODES.TEN:
                         const { heartbeat_interval } = payload.d

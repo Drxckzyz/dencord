@@ -85,5 +85,6 @@ export default async function(client: Client, payload: Payload) {
     const end = performance.now();
     console.log(`Duration: ${end-now}ms`);
     //console.log(client.guilds);
+    await RestApiHandler.CreateSlashCommand('test', 'hi', {}, 3, true, client.user.id, client.token);
     client.emit(Events.READY); 
 }

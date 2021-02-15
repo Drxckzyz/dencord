@@ -1,4 +1,4 @@
-const token = 'test token here i guess'
+const token = 'Nzc4OTYxODA0NjQ2ODA5NjEw.X7Zmtg.sUvKtUnsJVpq0LDyErI5rHl-cgs'
 
 import Client from './src/client/Client.ts';
 

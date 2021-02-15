@@ -25,10 +25,11 @@ export enum CLOSEDCODES {
 export enum Endpoints {
     USERS = 'users',
     USERS_GUILDS = 'users/@me/guilds',
-    GUILDS = 'guilds'
+    GUILDS = 'guilds',
+    COMMANDS = 'applications/<my_application_id>/guilds/764545184653901825/commands'
 }
 
 export const headers = {
-    'Content-Type': 'application./json',
+    'Content-Type': 'application/json',
     'Authorization': '',
 }
