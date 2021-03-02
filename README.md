@@ -1,4 +1,4 @@
-﻿# Tscord
+﻿# Dencord
 
 A simple and basic Discord library that is still in the works.
 
@@ -27,4 +27,4 @@ All contributions will be must apreciated!
 
 ## Found an issue:
 
- Create an [issue](https://github.com/Drxckzyz/tscord/issues) or if you can solve it create a [PR](https://github.com/Drxckzyz/tscord/pulls) and explain it.
+ Create an [issue](https://github.com/Drxckzyz/dencord/issues) or if you can solve it create a [PR](https://github.com/Drxckzyz/dencord/pulls) and explain it.
